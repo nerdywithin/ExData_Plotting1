@@ -1,4 +1,4 @@
-file_path = "./hpc.txt"
+file_path = "File Path Here"
 
 dat = subset(read.table(file = file_path, header = T, sep = ";", na.strings = "?",
                         colClasses = c("character", "character", "numeric", "numeric",
